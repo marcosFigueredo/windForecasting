@@ -38,7 +38,8 @@ Open the notebooks in the `notebook/` folder and execute them sequentially.
 
 If you use this repository, please credit the original author and the Graduate Program in Modeling and Simulation of Biosystems (PPGMSB/UNEB).
 
-**Author:** Marcos Felipe  
+**Author:** Marcos Felipe
+**Advisor:** Prof. Marcos Batista Figueredo
 **Program:** M.Sc. in Modeling and Simulation of Biosystems  
 **Institution:** State University of Bahia – UNEB, Campus II – Alagoinhas, Brazil
 
