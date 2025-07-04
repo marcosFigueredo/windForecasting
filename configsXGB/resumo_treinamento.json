@@ -1,0 +1,86 @@
+{
+  "data_treinamento": "2025-05-24 12:52:19",
+  "abordagem": "XGBoost simples - apenas sequências temporais",
+  "componentes": [
+    "d1",
+    "d2",
+    "d3"
+  ],
+  "horizontes": [
+    1,
+    5,
+    7,
+    30
+  ],
+  "total_modelos": 12,
+  "sucessos": 12,
+  "falhas": 0,
+  "resultados": {
+    "d1": {
+      "t+1": {
+        "rmse_test": 0.648369987665224,
+        "mae_test": 0.40562341057219914,
+        "overfitting_ratio": 1.490752491952385
+      },
+      "t+5": {
+        "rmse_test": 1.284423300772818,
+        "mae_test": 0.8899200862272133,
+        "overfitting_ratio": 1.2105083923088453
+      },
+      "t+7": {
+        "rmse_test": 1.2962928806255445,
+        "mae_test": 0.8929921816423301,
+        "overfitting_ratio": 1.3066400442221147
+      },
+      "t+30": {
+        "rmse_test": 1.2662451320690131,
+        "mae_test": 0.8643047640380391,
+        "overfitting_ratio": 1.2868451128730694
+      }
+    },
+    "d2": {
+      "t+1": {
+        "rmse_test": 0.30297384302246344,
+        "mae_test": 0.205366284882027,
+        "overfitting_ratio": 1.2308050972165667
+      },
+      "t+5": {
+        "rmse_test": 0.8700601769265334,
+        "mae_test": 0.6253511236700457,
+        "overfitting_ratio": 1.1005805073153336
+      },
+      "t+7": {
+        "rmse_test": 0.9435544353506256,
+        "mae_test": 0.6869596910088436,
+        "overfitting_ratio": 1.1468893509396871
+      },
+      "t+30": {
+        "rmse_test": 0.9557387913005987,
+        "mae_test": 0.6935534782198272,
+        "overfitting_ratio": 1.10833709303763
+      }
+    },
+    "d3": {
+      "t+1": {
+        "rmse_test": 0.1898690447423504,
+        "mae_test": 0.13912744729383048,
+        "overfitting_ratio": 1.1559013242081346
+      },
+      "t+5": {
+        "rmse_test": 0.49054572435937377,
+        "mae_test": 0.34554864631894777,
+        "overfitting_ratio": 1.0272727359535192
+      },
+      "t+7": {
+        "rmse_test": 0.643337791480951,
+        "mae_test": 0.44512342560974844,
+        "overfitting_ratio": 1.1850030300853196
+      },
+      "t+30": {
+        "rmse_test": 0.8431016745506631,
+        "mae_test": 0.6080675053813975,
+        "overfitting_ratio": 1.0180128011777747
+      }
+    }
+  }
+}

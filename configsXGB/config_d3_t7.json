@@ -1,0 +1,20 @@
+{
+  "componente": "D3",
+  "passo": 7,
+  "tipo": "ensemble_especializado",
+  "look_back": 10,
+  "n_features_total": 10,
+  "modelos_treinados": [
+    "baixos",
+    "altos",
+    "geral"
+  ],
+  "performance": {
+    "rmse_geral": 0.6246663835566104,
+    "mae_geral": 0.42807272316251466,
+    "rmse_ensemble": 0.6532178372868129,
+    "mae_ensemble": 0.4587744095508016,
+    "melhoria_rmse_pct": -4.570672359162583,
+    "melhoria_mae_pct": -7.172072577170795
+  }
+}

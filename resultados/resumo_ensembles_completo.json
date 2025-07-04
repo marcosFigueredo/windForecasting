@@ -1,0 +1,177 @@
+{
+  "data_treinamento": "2025-05-24 14:34:50",
+  "tempo_total_minutos": 1.173359994093577,
+  "componentes_treinados": [
+    "d1",
+    "d2",
+    "d3"
+  ],
+  "horizontes_treinados": [
+    1,
+    5,
+    7,
+    30
+  ],
+  "total_modelos": 12,
+  "sucessos": 12,
+  "falhas": 0,
+  "taxa_sucesso_pct": 100.0,
+  "estatisticas_melhorias": {
+    "rmse_media": -6.368424006039345,
+    "rmse_melhor": 0.07555315464473844,
+    "mae_media": -8.72143198862708,
+    "mae_melhor": -1.1066376966255986
+  },
+  "resultados_detalhados": {
+    "d1": {
+      "t+1": {
+        "status": "sucesso",
+        "performance": {
+          "rmse_geral": 0.6245131630339539,
+          "mae_geral": 0.3947996985550763,
+          "rmse_ensemble": 0.635730942887728,
+          "mae_ensemble": 0.40478131164697484,
+          "melhoria_rmse_pct": -1.7962439413249407,
+          "melhoria_mae_pct": -2.5282727237204474
+        },
+        "tempo_treinamento": 7.165461301803589
+      },
+      "t+5": {
+        "status": "sucesso",
+        "performance": {
+          "rmse_geral": 1.3153123281362729,
+          "mae_geral": 0.9286712749738409,
+          "rmse_ensemble": 1.4220214698248441,
+          "mae_ensemble": 1.0416321779818094,
+          "melhoria_rmse_pct": -8.11283673131631,
+          "melhoria_mae_pct": -12.163712397710414
+        },
+        "tempo_treinamento": 5.483879089355469
+      },
+      "t+7": {
+        "status": "sucesso",
+        "performance": {
+          "rmse_geral": 1.3198423748122872,
+          "mae_geral": 0.9223862273462433,
+          "rmse_ensemble": 1.434106507355244,
+          "mae_ensemble": 1.0444324838208332,
+          "melhoria_rmse_pct": -8.657407484678451,
+          "melhoria_mae_pct": -13.231578362322665
+        },
+        "tempo_treinamento": 5.825021266937256
+      },
+      "t+30": {
+        "status": "sucesso",
+        "performance": {
+          "rmse_geral": 1.289592572702927,
+          "mae_geral": 0.895503329546834,
+          "rmse_ensemble": 1.4012394620399244,
+          "mae_ensemble": 1.013939409846306,
+          "melhoria_rmse_pct": -8.65753197562163,
+          "melhoria_mae_pct": -13.2256437683382
+        },
+        "tempo_treinamento": 6.5217366218566895
+      }
+    },
+    "d2": {
+      "t+1": {
+        "status": "sucesso",
+        "performance": {
+          "rmse_geral": 0.27175280136035124,
+          "mae_geral": 0.1834753655021384,
+          "rmse_ensemble": 0.27154748354608804,
+          "mae_ensemble": 0.18550577306080665,
+          "melhoria_rmse_pct": 0.07555315464473844,
+          "melhoria_mae_pct": -1.1066376966255986
+        },
+        "tempo_treinamento": 4.173047065734863
+      },
+      "t+5": {
+        "status": "sucesso",
+        "performance": {
+          "rmse_geral": 0.8874607238208326,
+          "mae_geral": 0.6463137921076432,
+          "rmse_ensemble": 0.9408996683716172,
+          "mae_ensemble": 0.700500732380785,
+          "melhoria_rmse_pct": -6.0215560099055425,
+          "melhoria_mae_pct": -8.383998753366702
+        },
+        "tempo_treinamento": 4.516000986099243
+      },
+      "t+7": {
+        "status": "sucesso",
+        "performance": {
+          "rmse_geral": 0.9575772238671504,
+          "mae_geral": 0.7126131489336162,
+          "rmse_ensemble": 1.0405650290116528,
+          "mae_ensemble": 0.79864672947643,
+          "melhoria_rmse_pct": -8.666434735086783,
+          "melhoria_mae_pct": -12.072971242750441
+        },
+        "tempo_treinamento": 5.522744417190552
+      },
+      "t+30": {
+        "status": "sucesso",
+        "performance": {
+          "rmse_geral": 0.9815846283964547,
+          "mae_geral": 0.720741487443685,
+          "rmse_ensemble": 1.0802374850674508,
+          "mae_ensemble": 0.8130481133803003,
+          "melhoria_rmse_pct": -10.05036690847108,
+          "melhoria_mae_pct": -12.807175324956932
+        },
+        "tempo_treinamento": 6.238107681274414
+      }
+    },
+    "d3": {
+      "t+1": {
+        "status": "sucesso",
+        "performance": {
+          "rmse_geral": 0.17317165874653,
+          "mae_geral": 0.12356509437819507,
+          "rmse_ensemble": 0.18185707929002196,
+          "mae_ensemble": 0.12844048533748034,
+          "melhoria_rmse_pct": -5.015497689610242,
+          "melhoria_mae_pct": -3.9456053376718057
+        },
+        "tempo_treinamento": 5.302639722824097
+      },
+      "t+5": {
+        "status": "sucesso",
+        "performance": {
+          "rmse_geral": 0.4927357273521886,
+          "mae_geral": 0.348301474215263,
+          "rmse_ensemble": 0.519225251904148,
+          "mae_ensemble": 0.36897811206378134,
+          "melhoria_rmse_pct": -5.376010522781863,
+          "melhoria_mae_pct": -5.936419848668068
+        },
+        "tempo_treinamento": 5.517775774002075
+      },
+      "t+7": {
+        "status": "sucesso",
+        "performance": {
+          "rmse_geral": 0.6246663835566104,
+          "mae_geral": 0.42807272316251466,
+          "rmse_ensemble": 0.6532178372868129,
+          "mae_ensemble": 0.4587744095508016,
+          "melhoria_rmse_pct": -4.570672359162583,
+          "melhoria_mae_pct": -7.172072577170795
+        },
+        "tempo_treinamento": 7.179278135299683
+      },
+      "t+30": {
+        "status": "sucesso",
+        "performance": {
+          "rmse_geral": 0.8603189870691332,
+          "mae_geral": 0.6241674356724416,
+          "rmse_ensemble": 0.9426694334504867,
+          "mae_ensemble": 0.6995861850657874,
+          "melhoria_rmse_pct": -9.572082869157459,
+          "melhoria_mae_pct": -12.08309583022287
+        },
+        "tempo_treinamento": 6.952910900115967
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "data_treinamento": "2025-06-16 16:57:29",
+  "abordagem": "MLP simples - apenas sequências temporais",
+  "modelo_tipo": "Multi-Layer Perceptron (MLPRegressor)",
+  "componentes": [
+    "d1",
+    "d2",
+    "d3"
+  ],
+  "horizontes": [
+    1,
+    5,
+    7,
+    30
+  ],
+  "total_modelos": 12,
+  "tempo_total_minutos": 0.7104061524073283,
+  "sucessos": 12,
+  "falhas": 0,
+  "nao_convergiram": 0,
+  "resultados": {
+    "d1": {
+      "t+1": {
+        "rmse_test": 0.28130362242930684,
+        "mae_test": 0.13417081500712197,
+        "overfitting_ratio": 1.5788906603349402,
+        "tempo_treino": 4.038666009902954,
+        "convergiu": true
+      },
+      "t+5": {
+        "rmse_test": 1.2700343252613662,
+        "mae_test": 0.8553561435297503,
+        "overfitting_ratio": 0.9694170142712254,
+        "tempo_treino": 0.7286617755889893,
+        "convergiu": true
+      },
+      "t+7": {
+        "rmse_test": 1.2542143844276523,
+        "mae_test": 0.8406040141772875,
+        "overfitting_ratio": 0.9516380919395568,
+        "tempo_treino": 0.7606911659240723,
+        "convergiu": true
+      },
+      "t+30": {
+        "rmse_test": 1.2511256554862895,
+        "mae_test": 0.8439515236471816,
+        "overfitting_ratio": 0.9437043327305709,
+        "tempo_treino": 0.7536842823028564,
+        "convergiu": true
+      }
+    },
+    "d2": {
+      "t+1": {
+        "rmse_test": 0.1315284222539055,
+        "mae_test": 0.07295585302770186,
+        "overfitting_ratio": 1.1644825458952082,
+        "tempo_treino": 5.2264275550842285,
+        "convergiu": true
+      },
+      "t+5": {
+        "rmse_test": 0.691692585745116,
+        "mae_test": 0.4820572732048213,
+        "overfitting_ratio": 1.0293585939689307,
+        "tempo_treino": 5.202721118927002,
+        "convergiu": true
+      },
+      "t+7": {
+        "rmse_test": 0.7603477243648009,
+        "mae_test": 0.5352817514495147,
+        "overfitting_ratio": 1.2342204601787055,
+        "tempo_treino": 5.170692443847656,
+        "convergiu": true
+      },
+      "t+30": {
+        "rmse_test": 0.9311820446497576,
+        "mae_test": 0.6667374095731637,
+        "overfitting_ratio": 0.8265336001177762,
+        "tempo_treino": 0.8657865524291992,
+        "convergiu": true
+      }
+    },
+    "d3": {
+      "t+1": {
+        "rmse_test": 0.0776707455608132,
+        "mae_test": 0.05097879554982431,
+        "overfitting_ratio": 0.8975059576212171,
+        "tempo_treino": 3.1598682403564453,
+        "convergiu": true
+      },
+      "t+5": {
+        "rmse_test": 0.3896060344062826,
+        "mae_test": 0.27234314320942166,
+        "overfitting_ratio": 0.905301583981115,
+        "tempo_treino": 5.044578313827515,
+        "convergiu": true
+      },
+      "t+7": {
+        "rmse_test": 0.37264306432351263,
+        "mae_test": 0.25876683277011386,
+        "overfitting_ratio": 1.0374544112419013,
+        "tempo_treino": 6.416823863983154,
+        "convergiu": true
+      },
+      "t+30": {
+        "rmse_test": 0.8460637847900384,
+        "mae_test": 0.6073689260660897,
+        "overfitting_ratio": 0.802670127837713,
+        "tempo_treino": 1.8266582489013672,
+        "convergiu": true
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "data_avaliacao": "2025-07-02 10:47:58",
+  "sistema": "MLP Completo",
+  "descricao": "Todos os componentes (A3, D1, D2, D3) usando MLP",
+  "passos_avaliados": [
+    1,
+    5,
+    7,
+    30
+  ],
+  "configuracao": {
+    "otimizar_pesos": true,
+    "aplicar_filtro": true,
+    "arquitetura": "Multi-Layer Perceptron",
+    "entrada": "Sequências temporais"
+  },
+  "resultados": {
+    "t+1": {
+      "RMSE": null,
+      "MAE": null,
+      "MAPE": null,
+      "C30": null,
+      "R2": null
+    },
+    "t+5": {
+      "RMSE": null,
+      "MAE": null,
+      "MAPE": null,
+      "C30": null,
+      "R2": null
+    },
+    "t+7": {
+      "RMSE": null,
+      "MAE": null,
+      "MAPE": null,
+      "C30": null,
+      "R2": null
+    },
+    "t+30": {
+      "RMSE": null,
+      "MAE": null,
+      "MAPE": null,
+      "C30": null,
+      "R2": null
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "componente": "D3",
+  "passo": 30,
+  "look_back": 10,
+  "n_features_total": 10,
+  "n_features_sequencia": 10,
+  "n_features_engineering": 0,
+  "scaler_type": "RobustScaler",
+  "model_type": "MLPRegressor",
+  "mlp_params": {
+    "hidden_layer_sizes": [
+      128,
+      64,
+      32,
+      16
+    ],
+    "activation": "relu",
+    "solver": "adam",
+    "alpha": 0.001,
+    "learning_rate": "adaptive",
+    "learning_rate_init": 0.001,
+    "max_iter": 500,
+    "early_stopping": true,
+    "validation_fraction": 0.1,
+    "n_iter_no_change": 20,
+    "random_state": 42,
+    "tol": 0.0001
+  },
+  "arquitetura": {
+    "hidden_layers": [
+      128,
+      64,
+      32,
+      16
+    ],
+    "total_parameters": 12048,
+    "activation": "relu",
+    "solver": "adam"
+  },
+  "dataset_info": {
+    "total_samples": 7839,
+    "train_samples": 6271,
+    "test_samples": 1568,
+    "data_range_original": [
+      -5.74847382678074,
+      5.261516444270062
+    ],
+    "data_range_scaled": [
+      -5.1403414993355785,
+      4.693935930057736
+    ]
+  },
+  "training_info": {
+    "tempo_treino_segundos": 1.8266582489013672,
+    "iteracoes_realizadas": 57,
+    "loss_final": 0.4239986051226266,
+    "convergiu": true
+  },
+  "performance": {
+    "rmse_train": 1.0540616318551959,
+    "mae_train": 0.7858470394150088,
+    "rmse_test": 0.8460637847900384,
+    "mae_test": 0.6073689260660897,
+    "overfitting_ratio": 0.802670127837713
+  }
+}
