@@ -1,5 +1,3 @@
-,RMSE,MAE,MAPE,C30,R2
-t+1,,,,,
-t+5,,,,,
-t+7,,,,,
-t+30,,,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:308c2382a6de42e1df0ca1fed27b8172b9a96b5421c85dbb0363fede132df3dc
+size 64
